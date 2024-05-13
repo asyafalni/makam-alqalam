@@ -455,8 +455,6 @@
   border-bottom-left-radius: 10rem;
 }
 .home-contact {
-  width: 100%;
-  max-width: 1320px;
   padding-top: var(--dl-space-space-tripleunit);
   padding-left: var(--dl-space-space-tripleunit);
   padding-right: var(--dl-space-space-tripleunit);
