@@ -19,7 +19,7 @@
 }
 .outline-gray-button-root-class-name {
   width: auto;
-  height: 100%;
+  height: var(--dl-size-size-doubleunit);
 }
 @media(max-width: 479px) {
   .outline-gray-button-root-class-name {
@@ -244,28 +244,44 @@
   align-items: flex-start;
   flex-direction: row;
 }
+.home-link {
+  display: contents;
+}
 .home-icon {
   fill: var(--dl-color-secondary-100);
   width: 128px;
   height: 100%;
   margin-right: var(--dl-space-space-doubleunit);
+  text-decoration: none;
+}
+.home-link1 {
+  display: contents;
 }
 .home-icon2 {
   fill: var(--dl-color-secondary-100);
   width: 128px;
   height: 100%;
   margin-right: var(--dl-space-space-doubleunit);
+  text-decoration: none;
+}
+.home-link2 {
+  display: contents;
 }
 .home-icon4 {
   fill: var(--dl-color-secondary-100);
   width: 128px;
   height: 100%;
   margin-right: var(--dl-space-space-doubleunit);
+  text-decoration: none;
+}
+.home-link3 {
+  display: contents;
 }
 .home-icon6 {
   fill: var(--dl-color-secondary-100);
   width: 128px;
   height: 100%;
+  text-decoration: none;
 }
 .home-container06 {
   top: 350px;
@@ -307,7 +323,7 @@
   border-radius: var(--dl-radius-radius-round);
   flex-direction: column;
   background-size: cover;
-  background-image: url('https://raw.githubusercontent.com/asyafalni/makam-alqalam/main/assets/red-circle.webp');
+  background-image: url('./assets/red-circle.webp');
 }
 .home-container08 {
   height: auto;
@@ -343,7 +359,7 @@
   flex-direction: column;
   background-image: linear-gradient(310deg,#7928ca,#ff0080);
 }
-.home-link {
+.home-link4 {
   display: contents;
 }
 .home-image1 {
@@ -613,6 +629,7 @@
     right: var(--dl-space-space-sixunits);
     width: 25%;
     bottom: -40px;
+    border-width: 9px;
   }
   .home-text18 {
     margin-bottom: 0px;
@@ -659,6 +676,9 @@
   .home-text02 {
     font-size: 2.5rem;
   }
+  .home-image1 {
+    border-width: 8px;
+  }
   .home-container10 {
     width: 675px;
   }
@@ -693,6 +713,9 @@
   .home-text02 {
     font-size: 2.5rem;
   }
+  .home-image1 {
+    border-width: 7px;
+  }
   .home-container10 {
     width: 533px;
   }
@@ -714,6 +737,9 @@
   }
   .home-container14 {
     width: 100%;
+  }
+  .home-text24 {
+    font-size: 2.5rem;
   }
   .home-container17 {
     width: 50vh;
@@ -748,6 +774,9 @@
   .home-text09 {
     font-weight: 700;
   }
+  .home-image1 {
+    border-width: 6px;
+  }
   .home-container10 {
     width: 402px;
   }
@@ -773,6 +802,9 @@
     width: 100%;
     height: auto;
     padding-bottom: 0px;
+  }
+  .home-text24 {
+    font-size: 1.5rem;
   }
   .home-container17 {
     width: 30vh;

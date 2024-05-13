@@ -19,7 +19,7 @@
 }
 .outline-gray-button-root-class-name {
   width: auto;
-  height: 100%;
+  height: var(--dl-size-size-doubleunit);
 }
 @media(max-width: 479px) {
   .outline-gray-button-root-class-name {
