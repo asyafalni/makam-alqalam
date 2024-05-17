@@ -278,6 +278,16 @@
 .home-container06:hover {
   transform: scale(1.04);
 }
+#hide {
+  display: none;
+}
+.home-container06:hover #hide {
+  display: flex;
+  justify-content: center;
+}
+.home-container06:hover #show {
+  display: none;
+}
 .home-container07 {
   top: auto;
   flex: 0 0 auto;
