@@ -331,6 +331,12 @@
   font-size: 5rem;
   font-weight: 300;
 }
+.home-text12, .home-text15 {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
 .home-testimonials {
   flex: 0 0 auto;
   width: 100%;
